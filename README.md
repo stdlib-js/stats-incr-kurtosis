@@ -20,7 +20,7 @@ limitations under the License.
 
 # incrkurtosis
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute a [corrected sample excess kurtosis][sample-excess-kurtosis] incrementally.
 
@@ -168,6 +168,26 @@ console.log( accumulator() );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/skewness`][@stdlib/stats/incr/skewness]</span><span class="delimiter">: </span><span class="description">compute a corrected sample skewness incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/stdev`][@stdlib/stats/incr/stdev]</span><span class="delimiter">: </span><span class="description">compute a corrected sample standard deviation incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/summary`][@stdlib/stats/incr/summary]</span><span class="delimiter">: </span><span class="description">compute a statistical summary incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/variance`][@stdlib/stats/incr/variance]</span><span class="delimiter">: </span><span class="description">compute an unbiased sample variance incrementally.</span>
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -211,8 +231,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-kurtosis/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-kurtosis?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-incr-kurtosis.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-incr-kurtosis/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
@@ -226,6 +250,20 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [sample-excess-kurtosis]: https://en.wikipedia.org/wiki/Kurtosis
 
 [@joanes:1998]: http://onlinelibrary.wiley.com/doi/10.1111/1467-9884.00122/
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
+
+[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness
+
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev
+
+[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats-incr-summary
+
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance
+
+<!-- </related-links> -->
 
 </section>
 
