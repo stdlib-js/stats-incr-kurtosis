@@ -1,0 +1,35 @@
+{
+  "name": "@stdlib/stats-incr-kurtosis",
+  "version": "0.0.0",
+  "description": "Compute a corrected sample excess kurtosis incrementally.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-incr-kurtosis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "kurtosis",
+    "sample kurtosis",
+    "shape",
+    "kurt",
+    "corrected",
+    "incremental",
+    "accumulator"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
