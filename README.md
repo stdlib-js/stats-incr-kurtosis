@@ -97,6 +97,11 @@ G_2 = \frac{(n+1)n}{(n-1)(n-2)(n-3)} \frac{\displaystyle\sum_{i=0}^{n-1} (x_i - 
 ## Usage
 
 ```javascript
+import incrkurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-kurtosis/tags). For example,
+
+```javascript
 import incrkurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@v0.1.0-esm/index.mjs';
 ```
 
@@ -155,7 +160,7 @@ kurtosis = accumulator( -4.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrkurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@v0.1.0-esm/index.mjs';
+import incrkurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@esm/index.mjs';
 
 var accumulator;
 var v;
