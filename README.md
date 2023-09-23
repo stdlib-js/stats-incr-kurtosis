@@ -99,6 +99,11 @@ G_2 = \frac{(n+1)n}{(n-1)(n-2)(n-3)} \frac{\displaystyle\sum_{i=0}^{n-1} (x_i - 
 To use in Observable,
 
 ```javascript
+incrkurtosis = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-kurtosis/tags). For example,
+
+```javascript
 incrkurtosis = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@v0.1.0-umd/browser.js' )
 ```
 
@@ -111,7 +116,7 @@ var incrkurtosis = require( 'path/to/vendor/umd/stats-incr-kurtosis/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -177,7 +182,7 @@ kurtosis = accumulator( -4.0 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
