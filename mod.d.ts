@@ -18,7 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 /**
 * If provided a value, returns an updated corrected sample excess kurtosis; otherwise, returns the current corrected sample excess kurtosis.
