@@ -97,7 +97,7 @@ G_2 = \frac{(n+1)n}{(n-1)(n-2)(n-3)} \frac{\displaystyle\sum_{i=0}^{n-1} (x_i - 
 ## Usage
 
 ```javascript
-import incrkurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@esm/index.mjs';
+import incrkurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@v0.2.3-esm/index.mjs';
 ```
 
 #### incrkurtosis()
@@ -155,7 +155,7 @@ kurtosis = accumulator( -4.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrkurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@esm/index.mjs';
+import incrkurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-kurtosis@v0.2.3-esm/index.mjs';
 
 var accumulator;
 var v;
