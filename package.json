@@ -41,8 +41,7 @@
     "@stdlib/types": "^0.5.1"
   },
   "devDependencies": {
-    "@stdlib/constants-float64-eps": "^0.2.3",
-    "@stdlib/math-base-special-abs": "^0.2.3",
+    "@stdlib/assert-is-almost-same-value": "^0.1.1",
     "@stdlib/random-base-randu": "^0.2.3",
     "@stdlib/string-format": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
